@@ -1,71 +1,106 @@
 /*logo do projeto*/
 .logo{
-  width: 35%;
-  height: 100%;
-  margin-left: 140px;
-  margin-top: -5px;
+  width: 20%;
+}
+.evento{
+  width: 90%;
+  height: 90%;
+  margin-left: 25px;
+  border-radius: 10%;
+  border: 2px solid #96d904;
+}
+
+a{
+  color:white
+}
+
+header{
+    position: fixed;
+    left:0;
+    right: 0;
 }
 
 /*icones do rodape*/
 .casa{
-  margin-left: 20px;
-  margin-top: 5px;
+  margin-left: 25px;
+  margin-right: 95px;
+  margin-top: 3px;
   margin-bottom: 10px;
 }
 .terra{
-  margin-left: 80px;
-  margin-top: 5px;
+  margin-top: 3px;
+  margin-right: 100px;
   margin-bottom: 10px;
 }
 .perfil{
-  margin-left: 90px;
-  margin-top: 8px;
+  margin-top: 3px;
   margin-bottom: 10px;
 }
 .icone{
   width: 15%;
-  height: 85%;
+  height: 90%;
+}
+
+.active, .casa:hover {
+  color: #81b364;
+}
+.active, .terra:hover {
+  color: #81b364;
+}
+.active, .perfil:hover {
+  color: #81b364;
 }
 
 /*rodape*/
 footer{
-  background-color: Limegreen;
-  margin-top: 20px;
-  margin-left: -15px;
-  width: 115%;
+  background-color: #96d904;
+  margin-top: 5px;
+  margin-left: -10px;
+  width: 103%;
   height: 90px;
   display: block;
-  position: absolute
+  position: absolut;
+  left:0;
+  right: 0;
 }
 
 /*eventos*/
 .botao {
-  background-color: Limegreen;
+  background-color: #96d904;
   color: white;
   cursor: pointer;
   padding: 18px;
-  width: 91%;
+  width: 98%;
   border: none;
   text-align: left;
   outline: none;
-  margin-left: 20px;
+  margin-left: 4px;
+  margin-bottom: 10px;
   border-radius: 20px;
-  height: 90%;
+  height: 10%;
 }
 h3,h5{
   color: white;
 }
 .active, .botao:hover {
-  background-color: rgb(45, 179, 45);
+  background-color: #81b364;
 }
 
 /*imagem de exempo do evento*/
 .exemplo{
   width: 50%;
   height: 50%;
+  border: 2px solid white;
+  border-radius: 10px;
 }
-.jumbotron{
-  margin-left: 20px;
-  width: 91%;
-   background-color: Limegreen;
+
+.navbar{
+  display: block;
+  z-index: 1000;
+}
+
+.navbar-header {
+  position: fixed;
+  overflow: hidden;
+  z-index: 1000;
 }
